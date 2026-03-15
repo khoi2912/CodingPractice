@@ -7,7 +7,7 @@ int main() {
     {
         printf("Nhap n: \n");
         scanf("%d", &n);
-    } while (n < 2 || n > 10);
+    } while (n < 2 || n > 9);
     
     for(int i = 1; i <= 10; i++) {
         s = n * i;

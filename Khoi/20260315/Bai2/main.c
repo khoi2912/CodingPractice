@@ -5,7 +5,7 @@ int main() {
     int isPrime = 1; 
 
     printf("Nhap n: ");
-    scanf("%d", &n);
+    scanf("%d", &n); 
 
     if (n < 2) {
         isPrime = 0; 
@@ -18,9 +18,9 @@ int main() {
         }
     }
 
-    if (isPrime) {
+    if (isPrime) { // isPrime = 1; -> True
         printf("So %d la so nguyen to\n", n);
-    } else {
+    } else { // isPrime = 0; -> False
         printf("So %d khong phai la so nguyen to\n", n);
     }
 
@@ -36,7 +36,7 @@ int main() {
 //     printf("Nhap n: ");
 //     scanf("%d", &n);
 
-//     for (int i = 1; i <= n; i++) {
+//     for (int i = 1; i <= n; i++) { 
 //         if (n % i == 0) {
 //             count++; // tăng count mỗi lần n chia hết cho i
 //         }
