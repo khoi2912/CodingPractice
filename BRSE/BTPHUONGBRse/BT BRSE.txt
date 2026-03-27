@@ -1,0 +1,157 @@
+VN株式会社でございます。
+ABC株式会社へ、
+
+　
+いつもお世話になっております。
+VN株式会社のフォンでございます。
+
+Eの件について、状況を共有させていただきます。
+
+現在、ログインできない状況となっております。
+メールアドレスが正当な場合でも、ログインが成功してしまいません。
+本来は、ログインができるとなる想定です。
+
+お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+
+よろしくお願いいたします。
+
+Bai 2
+
+VN株式会社でございます。
+ABC株式会社へ、
+
+いつもお世話になっております。
+VN株式会社のフォンでございます。
+
+カード決済時に支払いが失敗について、状況を共有させていただきます。
+
+ユーザーから「カードで支払いをしようとしたらエラーが出た」と報告がありました。
+エラーの内容は「お取引を完了できませんでした」という表示です。
+
+
+正常な場合、支払いが完了して「成功しました」の画面が出るはずです。
+
+申し訳ありませんが、このエラーの原因についてご確認をお願いいたします。
+
+お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+
+よろしくお願いいたします。
+
+
+【Hiện tượng】
+Người dùng báo cáo rằng đã xảy ra lỗi khi thanh toán bằng thẻ tín dụng.
+Nội dung lỗi hiển thị là: "Không thể hoàn tất giao dịch."
+
+【Dự kiến】
+Trong trường hợp bình thường, sau khi thanh toán sẽ hiển thị màn hình "Đã thanh toán thành công."
+
+【Yêu cầu】
+Rất mong quý công ty kiểm tra nguyên nhân của lỗi này.
+
+Bài 5 
+VN株式会社でございます。
+ABC株式会社へ、
+
+　
+いつもお世話になっております。
+VN株式会社のフォンでございます。
+
+EXELの報告機能追加の件について、状況を共有させていただきます。
+
+このたびはExcel機能追加のご依頼をいただき、誠にありがとうございます。
+拝見いたしましたが、いったん機能追加の実施にあたりまして、ご依頼いただいた内容の範囲（スコープ）について改めて確認させていただけますと幸いでございます。
+
+つきましては、大変恐れ入りますが、以下の点についてご教示いただけますでしょうか。
+
+ご希望の機能の具体的な動作内容
+
+その他、ご要件に関する補足事項
+
+確認後、対応の可否も含め改めてご連絡させていただきます。
+お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+
+よろしくお願いいたします。
+
+Chúng tôi xin trân trọng cảm ơn Quý công ty đã gửi yêu cầu bổ sung chức năng Excel.
+Sau khi xem xét, để tiến hành thực hiện bổ sung chức năng, chúng tôi rất mong được xác nhận lại một lần nữa về phạm vi (scope) của nội dung Quý công ty đã yêu cầu.
+
+Vì vậy, rất mong Quý công ty vui lòng cho chúng tôi biết các điểm sau đây:
+
+Nội dung hoạt động cụ thể của chức năng mong muốn
+
+Sheet hoặc vùng ô cần áp dụng trong file Excel
+
+Các thông tin bổ sung khác liên quan đến yêu cầu
+
+
+
+
+Bài 4 
+VN株式会社でございます。
+ABC株式会社へ、
+
+　
+いつもお世話になっております。
+VN株式会社のフォンでございます。
+
+システムにログインできない事象について、状況を共有させていただきます。
+
+このたび、システムにログインできない事象が発生しており、お客様には大変ご迷惑とご不便をおかけしておりますこと、心より深くお詫び申し上げます。
+
+本件につきまして、原因の特定と復旧作業を最優先で進めております。
+つきましては、大変恐れ入りますが、復旧まで今しばらくお時間をいただけますと幸いでございます。
+
+また、お急ぎの際やご不明な点がございましたら、下記までお気軽にご連絡くださいませ。
+担当より優先してご対応させていただきます。
+
+お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+
+よろしくお願いいたします。
+
+Hiện nay đã xảy ra sự cố không thể đăng nhập vào hệ thống, gây ra sự bất tiện và phiền phức lớn cho Quý khách, chúng tôi xin chân thành gửi lời xin lỗi sâu sắc nhất.
+
+Về vấn đề này, chúng tôi đang ưu tiên cao nhất cho việc xác định nguyên nhân và khắc phục.
+Vì vậy, rất mong Quý khách vui lòng cho chúng tôi thêm một chút thời gian cho đến khi sự cố được xử lý.
+
+Ngoài ra, nếu có việc gấp hoặc bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi theo thông tin dưới đây.
+Nhân viên phụ trách sẽ ưu tiên hỗ trợ Quý khách.
+
+
+
+　
+Bài 1
+いつもお世話になっております。
+VN株式会社のフォンでございます。
+
+Eの件について、状況を共有させていただきます。
+
+このたびは、検索機能の動作が「少し遅い」とのご指摘をいただき、誠にありがとうございます。
+
+大変恐れ入りますが、状況をより正確に把握させていただくため、以下の点について詳しく教えていただけますでしょうか。
+
+どのような操作をされたときに、遅いと感じられましたか？
+（例：特定のキーワードを検索したとき、検索ボタンを押したとき など）
+
+遅いと感じられたのは、いつごろからでしょうか？
+（例：先週の更新後から、昨日から など）
+
+その他、何か気づかれたことがあれば教えてください
+
+お手数をおかけしますが、ご確認のほどよろしくお願いいたします。
+いただいた内容をもとに、確認させていただきます。
+
+よろしくお願いいたします。
+
+
+
+Chúng tôi xin trân trọng cảm ơn Quý công ty đã phản hồi rằng hoạt động của chức năng tìm kiếm "hơi chậm".
+
+Rất mong Quý công ty thông cảm, để chúng tôi có thể nắm bắt chính xác hơn tình hình, xin vui lòng cho chúng tôi biết chi tiết các điểm sau đây:
+
+Quý công ty đã thực hiện thao tác như thế nào khi cảm thấy chậm?
+(Ví dụ: khi tìm kiếm một từ khóa cụ thể, khi nhấn nút tìm kiếm, v.v.)
+
+Cảm thấy chậm bắt đầu từ khi nào?
+(Ví dụ: từ sau khi cập nhật tuần trước, từ hôm qua, v.v.)
+
+Nếu có bất kỳ điểm nào khác Quý công ty nhận thấy, xin vui lòng cho chúng tôi biết
