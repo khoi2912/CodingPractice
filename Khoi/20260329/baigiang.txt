@@ -1,0 +1,10 @@
+Switch-case:
+
+Switch là gì?
+Switch nó như 1 cái nút để mình chọn và nó sẽ so sánh 1 biến với nhiều giá trị cụ thể.
+
+Ví dụ:
+Nhập 1 ký tự từ bàn phím
+. Nếu là 'y' in ra "Yes"
+. Nếu là 'n' in ra "No"
+. Nếu khác -> in ra "Không hợp lệ"
