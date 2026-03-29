@@ -1,0 +1,22 @@
+Bài 1: while + break + continue
+
+🎯 Yêu cầu
+
+Viết chương trình thực hiện các chức năng sau:
+	•	Nhập các số nguyên liên tục.
+	•	Nếu số nhập âm → bỏ qua (dùng continue).
+	•	Nếu số nhập bằng 0 → kết thúc chương trình (dùng break).
+	•	Nếu số nhập dương → cộng vào tổng.
+	•	In tổng các số dương sau khi kết thúc.
+Bài 2: do-while + break + continue
+
+🎯 Yêu cầu
+
+Viết chương trình hiển thị menu:
+	1.	Nhập số dương
+	2.	Tính bình phương
+	3.	Thoát
+
+	•	Nếu chọn sai (khác 0, 1, 2) → thông báo và lặp lại (continue).
+	•	Nếu chọn 0 → thoát chương trình (break).
+	•	Menu phải hiển thị ít nhất một lần (do-while).
