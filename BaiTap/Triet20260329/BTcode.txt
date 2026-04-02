@@ -1,0 +1,254 @@
+// Bài 1: switch + for + break
+// Yêu cầu :
+// a. Nhập 1 số n
+// b. Hiển thị menu:
+// 1. in bảng cửu chương
+// 2. tính tổng từ 1 đến n
+// 0. Thoát
+
+// Nếu chọn 1 -> dùng for in bảng cửu chương của n
+// Nếu chọn 2 -> dùng for tính tổng
+// Nếu chọn 0 -> kết thúc
+
+#include <stdio.h>
+int main(){
+   int n;
+   int choice;
+   printf("Nhap so n: ");
+   scanf("%d", &n);
+do 
+{
+    printf("\n===MENU===\n");
+    printf("1. IN BANG CUU CHUONG\n");
+    printf("2. TONG TU 1 DEN n\n");
+    printf("0. THOAT\n");
+    printf("Nhap lua chon: ");
+    scanf("%d", &choice);
+    switch (choice)
+    {
+    case 1:
+        for(int i = 1; i <= 10; i++){
+                printf("%d x %d = %d\n", n, i, n * i);
+        }
+        break;
+    case 2:
+        int sum = 0;
+        for(int i = 1; i <= n; i++){
+            sum += i;
+            printf("Tong tu 1 den %d: %d\n", n,sum);
+        }
+        break;
+    case 0:
+            printf("KET THUC\n");
+        return 0;
+        
+    default:
+            printf("KHONG HOP LE\n");
+        break;
+    }
+}while(1);
+return 0;
+}
+
+// Bài 2: switch + while + break + continue
+// Yêu cầu:
+// Hiển thị menu:
+// 1. Nhập số dương
+// 2. tính tổng từ 1 đến n
+// 0. Thoát
+
+// Nếu nhập sai lựa chọn -> dùng continue
+// Menu lặp lặp bằng while(1)
+// Chọn 0 -> break
+
+#include <stdio.h>
+int main(){
+   int n;
+   int choice;
+   printf("Nhap so n: ");
+   scanf("%d", &n);
+do 
+{
+    printf("\n===MENU===\n");
+    printf("1. NHAP SO DUONG\n");
+    printf("2. TONG TU 1 DEN n\n");
+    printf("0. THOAT\n");
+    printf("Nhap lua chon: ");
+    scanf("%d", &choice);
+
+    if (choice ==0){
+        printf("KET THUC");
+        break;
+    }
+
+    if (choice ==1){
+        printf("Nhap so duong: ");
+        scanf("%d", &n);
+        
+        if (n <=0){
+            printf("So khong hop le\n");
+            continue;
+        }
+
+    }else if (choice ==2){
+        int sum = 0;
+        for(int i = 1; i <= n; i++){
+            sum += i;
+        }
+            printf("Tong tu 1 den %d: %d\n", n,sum);
+    }else {
+        printf("Lua chon khong hop le\n");
+        continue;
+    }
+}while(1);
+return 0;
+}
+
+// Bài 3: switch + do-while 
+// Yêu cầu:
+// Viết chương trình tính toán
+// + : Cộng
+// - : Trừ
+// * : Nhân
+// / : Chia
+// q : Thoát
+
+// Nhập 2 số và ký tự phép toán
+// Lặp lại menu bằng do-while
+// Nếu nhập sai phép toán -> continue
+// Nếu nhập q -> break
+
+
+#include <stdio.h>
+
+int main() {
+    float m;
+    float n;
+    char a;
+
+    printf("Nhap so m: ");
+    scanf("%f", &m);
+    printf("Nhap so n: ");
+    scanf("%f", &n);
+
+    do {
+        printf("\n===MENU===\n");
+        printf("+. Cộng \n");
+        printf("-. Trừ \n");
+        printf("*. Nhân \n");
+        printf("/. Chia\n");
+        printf("q. Thoat \n");
+        printf("Nhap lua chon: ");
+        scanf(" %c", &a);  
+
+        if (a == 'q') {
+            printf("Thoat \n");
+            break;
+        }
+
+        if (n == 0) {
+            printf("sai dieu kien\n");
+            break;
+        }
+
+        switch (a) {
+            case '+':
+                printf("Ket qua: %.2f\n", m + n);
+                break;
+
+            case '-':
+                printf("Ket qua: %.2f\n", m - n);
+                break;
+
+            case '*':
+                printf("Ket qua: %.2f\n", m * n);
+                break;
+
+            case '/':
+                printf("Ket qua: %.2f\n", m / n);
+                break;
+
+            default:
+                printf("KHONG HOP LE\n");
+                continue;
+        }
+
+    } while (1);
+
+    return 0;
+}
+
+
+// Bài 4: 
+
+// Viết chương trình:
+// ===== Menu =====
+// 1. Đếm số chẵn từ 1 -> n
+// 2. Đếm số lẻ từ 1 -> n
+// 3. Tính tổng số chia hết cho 3
+// 0. Thoát
+
+// Yêu cầu:
+// 1. Menu dùng do-while
+// 2. Dùng for xử lý tính toán
+// 3. Nếu n <= 0 -> continue
+// 4. Chọn 0 -> break
+// 5. Nếu nhập sai lựa chọn -> continue
+#include <stdio.h>
+int main(){
+   int n;
+   int choice;
+   printf("Nhap so n: ");
+   scanf("%d", &n);
+do 
+{
+    printf("\n===MENU===\n");
+    printf("1. DEM SO CHAN TU 1-n\n");
+    printf("2. DEM SO LE TU 1-n\n");
+    printf("3. TINH TONG SO CHIA HET CHO 3\n");
+    printf("0. THOAT\n");
+    printf("Nhap lua chon: ");
+    scanf("%d", &choice);
+
+if (choice == 0) {   //4. Chọn 0 -> break
+    printf("KET THUC");
+    break;
+}
+
+if (choice == 1) {   //1. Đếm số chẵn từ 1 -> n
+    printf("Nhap so n: ");
+    scanf("%d", &n);
+
+    if (n <=0){  //3. Nếu n <= 0 -> continue
+            printf("So khong hop le\n");
+            continue;
+    }
+    int countc = 0;
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0) {
+            countc++;
+        }
+    }
+    printf("DEM SO CHAN: %d\n", n, countc);
+}
+
+else if (choice == 2) {   //2. Đếm số lẻ từ 1 -> n
+    if (n <=0){ //3. Nếu n <= 0 -> continue
+            printf("So khong hop le\n");
+            continue;
+    }
+    int countl = 0;
+    for (int j = 1; j <= n; j++) {
+        if (j % 3 == 0) {
+            countl++;
+        }
+    }
+    printf("DEM SO LE: %d\n", n, countl);
+}else {
+    printf("Lua chon khong hop le\n");
+    continue; // 5. Nếu nhập sai lựa chọn -> continue
+}
+
+}while(1);
+return 0;
+}
