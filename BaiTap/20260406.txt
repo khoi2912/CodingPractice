@@ -1,0 +1,9 @@
+// Kiểm tra số đặc biệt
+// Yêu cầu:
+// Viết chương trình có menu:
+// 1. Kiểm tra số chẵn hay lẻ
+// 2. Kiểm tra số nguyên tố
+// 3. Kiểm tra số đối xứng
+// 0. Thoát
+
+// ví dụ ở 3 là 121, 151,545, 595.
