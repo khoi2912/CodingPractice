@@ -1,3 +1,14 @@
+// Bài 2: switch + while + break + continue
+// Yêu cầu:
+// Hiển thị menu:
+// 1. Nhập số dương
+// 2. tính tổng từ 1 đến n
+// 0. Thoát
+
+// Nếu nhập sai lựa chọn -> dùng continue
+// Menu lặp lặp bằng while(1)
+// Chọn 0 -> break
+
 #include <stdio.h>
 int main()
 {
@@ -26,7 +37,7 @@ int main()
             printf("Ban da nhap so duong: %d\n", n);
             break;
 
-        case 2:
+        case 2: // thiêus ngoặc {}
             int sum = 0;
             printf("Nhap n: ");
             scanf("%d", &n);
@@ -46,7 +57,7 @@ int main()
 
         case 0:
             printf("Thoat chuong trinh.\n");
-            break;
+            break; // return 0;
 
         default:
             printf("Lua chon khong hop le! Vui long chon lai\n");
