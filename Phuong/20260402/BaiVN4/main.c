@@ -32,7 +32,9 @@ int main()
         printf("2.Dem so chan\n");
         printf("3.Tong chia het cho 3\n");
         printf("0.Thoat\n");
+        printf("Nhap lua chon: ");
         scanf("%d", &choice);
+
         switch (choice)
         {
         case 1:
@@ -42,12 +44,14 @@ int main()
             {
                 if (i % 2 != 0)
                 {
-                    count++;
+                    count1++;
                 }
             }
             printf("So le tu 1 den %d la: %d\n", n, count1);
             break;
+        }
         case 2:
+        {
             int count2 = 0;
             for (int i = 1; i <= n; i++)
             {
@@ -58,7 +62,9 @@ int main()
             }
             printf("So chan tu 1 den %d la: %d\n", n, count2);
             break;
+        }
         case 3:
+        {
             int sum = 0;
             for (int i = 1; i <= n; i++)
             {
@@ -73,13 +79,10 @@ int main()
         case 0:
             printf("Thoat chuong trinh\n");
             break;
-
         default:
             printf("Khong co trong MENU. Vui long chon lai.\n");
             break;
         }
-
     } while (choice != 0);
-
     return 0;
 }
