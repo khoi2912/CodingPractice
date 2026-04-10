@@ -1,5 +1,11 @@
 1. Chạy thử 2 code sum_even_bug.c và sum_even_correct.c (Bài tập Tính tổng chẵn )
+
 coi file code đúng và code sai nó đang như nào?
+đầu tiên chạy gcc của 2 code
+sau đó so sánh logic bên trong
+từ đó làm cái số 2.
+
+
 2. từ code viết judge như dưới
 
 現象	    Hiện tượng
@@ -10,5 +16,9 @@ coi file code đúng và code sai nó đang như nào?
 原因 	   Nguyên nhân
 影響範囲	Phạm vi ảnh hưởng
 対応方法	Cách khắc phục
+=> trước khi sửa
 
 3. Từ chỗ 対応方法 fix như nào vào code sum_even_bug.c
+
+
+

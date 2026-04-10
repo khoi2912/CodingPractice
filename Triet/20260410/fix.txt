@@ -35,11 +35,15 @@ Không tính tổng các số chẵn lớn hơn không
 期待結果	Kết quả mong đợi
 Tính tổng các số chẵn lớn hơn không
 4. 発生頻度	Tần suất
-Liên tục và giống nhau
+100%
 5. 原因 	   Nguyên nhân
-  Viết sai lệnh trong chương trình
-6.影響範囲	Phạm vi ảnh hưởng
-   Từ dòng số 9 đến số 14
-7.対応方法	Cách khắc phục
+  Viết sai lệnh trong chương trình đang nằm ở line nào? Lý do tại sao chỗ này NG?
+
+6.対応方法	Cách khắc phục
  *Xóa câu lệnh break và sửa điều kiện của for i!＝０
  *Thêm vào điều kiện nếu n<0
+
+
+
+fix code xong, sẽ 影響範囲
+ 影響範囲	Phạm vi ảnh hưởng => không cần lắm. vì sau khi khắc phục thì mới có 影響範囲
