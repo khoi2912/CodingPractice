@@ -1,0 +1,14 @@
+1. Chạy thử 2 code sum_even_bug.c và sum_even_correct.c (Bài tập Tính tổng chẵn )
+coi file code đúng và code sai nó đang như nào?
+2. từ code viết judge như dưới
+
+現象	    Hiện tượng
+再現手順	Cách tái hiện
+実際の結果	Kết quả thực tế
+期待結果	Kết quả mong đợi
+発生頻度	Tần suất
+原因 	   Nguyên nhân
+影響範囲	Phạm vi ảnh hưởng
+対応方法	Cách khắc phục
+
+3. Từ chỗ 対応方法 fix như nào vào code sum_even_bug.c
