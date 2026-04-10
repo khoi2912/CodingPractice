@@ -1,0 +1,8 @@
+Hiện tượng	Chương trình chạy nhưng kết quả tổng số chẵn luôn bằng 0
+Cách tái hiện	Chạy chương trình, nhập bất kỳ số dương (ví dụ 10)
+Kết quả thực tế	Sum of even numbers from 1 to 10 is: 0
+Kết quả mong đợi	Sum of even numbers from 1 to 10 is: 30 (2+4+6+8+10)
+Tần suất	100%
+Nguyên nhân	Sai logic: if (i % 2 == 0) { break; } → gặp số chẵn đầu tiên (i=2) thì thoát vòng lặp ngay, không cộng được số nào
+Phạm vi ảnh hưởng	Toàn bộ output của chương trình, mọi input đều cho kết quả sai
+Cách khắc phục	Sửa điều kiện: nếu muốn tính tổng số chẵn → if (i % 2 != 0) continue; 
