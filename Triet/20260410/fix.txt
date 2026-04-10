@@ -1,0 +1,45 @@
+A> Code sum_even_bug.c
+    1/ Nếu nhập số âm kết quả tổng bằng 0
+    2/ Nếu nhập số 0 kết quả tổng bằng 0
+    3/ Nếu nhập số lớn hơn không thì kết quả vẫn bằng 1, 
+    dù cho nhập bất kì số nào đi nữa
+    4/ Logic code ' Gặp số chẵn đầu tiên i＝２、break dừng ngay lặp tức
+    Sum chỉ tính i＝1
+    5/ Kết luận Logic -> Sai
+    6. Sửa 
+        *Bỏ break, thay vào continue và sửa điều kiện 
+        *Thêm vào điều kiện nếu n<＝０
+
+B> Code sum_even_correct.c 
+    1/ Nếu nhập số âm kết quả Invalid input
+    2/ Nếu nhập số 0 kết quả Invalid input
+    3/ Nếu nhập số 1 kết quả là 0
+    4/ Nếu nhập số 2 kết quả 2
+    5/ Nếu nhập số 3 kết quả 2
+    6/ Nếu nhập số 4 kết quả 6
+    7/ Nếu nhập số 5 kết quả 6
+    8/ Nếu nhập số 6 kết quả 12
+    9/ Logic code , nhập số nguyên dương và tính tổng các số chẵn từ 1 đến n
+
+C> Viết Judge
+1. 現象	    Hiện tượng 
+ Dù nhập số lớn hơn không nhưng kết quả vẫn là 1
+2. 再現手順	Cách tái hiện
+ *Chạy Ternimal C:\Users\Dell\Desktop\CodingPractice\BaiTap\20260410
+ *Nhập gcc sum_even_bug.c -o main
+ *Nhập thử n＝-1_kết quả 0
+ *Nhập thử n＝0_kết quả 0
+ *Nhập thử n＝1,2,3,4,5_kết quả 1 -> NG
+3.実際の結果	Kết quả thực tế
+Không tính tổng các số chẵn lớn hơn không
+期待結果	Kết quả mong đợi
+Tính tổng các số chẵn lớn hơn không
+4. 発生頻度	Tần suất
+Liên tục và giống nhau
+5. 原因 	   Nguyên nhân
+  Viết sai lệnh trong chương trình
+6.影響範囲	Phạm vi ảnh hưởng
+   Từ dòng số 9 đến số 14
+7.対応方法	Cách khắc phục
+ *Xóa câu lệnh break và sửa điều kiện của for i!＝０
+ *Thêm vào điều kiện nếu n<0
