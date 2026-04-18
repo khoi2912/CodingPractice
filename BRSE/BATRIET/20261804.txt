@@ -1,0 +1,73 @@
+#include <stdio.h>
+
+int main() {
+    int choice;
+    int n, i;
+    int result = 1;
+
+    printf("=== MENU ===\n");
+    printf("1. Calculate factorial\n");
+    printf("2. Exit\n");
+    printf("Choose: ");
+    scanf("%d", &choice);
+
+    switch (choice) {
+        case 1:
+            printf("Enter a number: ");
+            scanf("%d", &n);
+
+            for (i = 1; i <= n; i++) {
+                result *= i;
+            }
+
+            printf("Factorial of %d is: %d\n", n, result);
+            break;
+
+        case 2:
+            printf("Exit program\n");
+            break;
+
+        default:
+            printf("Invalid choice\n");
+    }
+
+    return 0;
+}
+//
+
+概要：
+1から記入しても、正しく計算されない不具合が発生しています。
+
+現象：
+数値「5」を入力すると、結果が「0」と表示されます。
+
+再現手順：
+1. プログラムを実行する
+2. 「5」を入力する
+3. 表示された結果を確認する
+4. 結果が「0」と表示されます。-> NG
+
+実際の結果：
+結果が「0」と表示されます。
+
+期待結果：
+結果が「120」と表示されることを期待します。
+
+発生頻度：
+毎回発生
+
+原因：
+階乗は1からかける必要があります。0をかけると結果は0になります。
+
+影響範囲：
+６行目に影響しています。
+すべての入力値に対して、正しく計算されません。
+
+対応方法：
+int result = 0;文を削除し、int result = 1;に修正します。
+
+優先度：
+高
+
+
+
