@@ -13,7 +13,7 @@ int main()
     int n = 0;
     int choice;
     int i, j;
-    int hasData = 0; 
+    int hasData = 0;
     do
     {
         if (!hasData)
@@ -100,6 +100,7 @@ int main()
                     }
                     if (count == 2)
                     {
+                        printf("so nguyen to trong danh sach la: %d\n", arr[i]);
                         countPrime++;
                     }
                 }
